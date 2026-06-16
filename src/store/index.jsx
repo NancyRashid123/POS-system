@@ -1,5 +1,4 @@
 
-
 import { create } from "zustand";
 
 export const domain = "https://pos.skyready.online";

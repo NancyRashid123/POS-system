@@ -69,9 +69,9 @@ export default function InsidePage() {
                 <h2 className="text-xl font-bold">{el.id}</h2>
               </div>
 
-              <span className="badge badge-warning badge-lg">
-                Under Process
-              </span>
+             <span className="px-3 py-1 rounded-full text-xs md:text-sm bg-yellow-100 text-yellow-600">
+                  Under Process
+                </span>
             </div>
 
             {/* Total */}
