@@ -1,17 +1,20 @@
+
+
 import { create } from "zustand";
 
- export const domain = "https://pos.skyready.online";
+export const domain = "https://pos.skyready.online";
+
 export const useCart = create((set) => ({
-    cart: [],
-    setCart: (newValue) => set(() => ({ cart: newValue })),
-})); ;
+  cart: [],
+  setCart: (cart) => set({ cart }),
+}));
 
 export const useModal = create((set) => ({
-    modalIndex: false,
-    setModalIndex: (newValue) => set(() => ({ modalIndex: newValue })),
-})); ;
+  modalIndex: false,
+  setModalIndex: (value) => set({ modalIndex: value }),
+}));
 
 export const useSearch = create((set) => ({
-    searchValue: "",
-    setSearchValue: (newValue) => set(() => ({ searchValue: newValue })),
-})); ;
+  searchValue: "",
+  setSearchValue: (value) => set({ searchValue: value }),
+}));
