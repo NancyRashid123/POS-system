@@ -1,7 +1,6 @@
-
 # 🧾 Restaurant POS System
 
-A web-based **Point of Sale (POS)** application for restaurants, providing separate workflows for **Administrators** and **Cashiers**.
+A web-based Point of Sale (POS) application for restaurants, providing separate workflows for Administrators and Cashiers.
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](https://pos-system-orcin-five.vercel.app/)
 
@@ -11,23 +10,23 @@ A web-based **Point of Sale (POS)** application for restaurants, providing separ
 ![DaisyUI](https://img.shields.io/badge/DaisyUI-5A0EF8)
 ![Zustand](https://img.shields.io/badge/Zustand-433E38)
 
+<!-- TODO: add 2-3 screenshots here, e.g. login, cashier screen, admin screen -->
+<!-- ![Cashier](./docs/cashier.png) -->
+
 ## ✨ Features
 
 ### Authentication & Role-Based Access
-
 - Login through the backend API.
 - Separate Admin and Cashier experiences.
 - Role-aware access to application sections.
 
 ### Cashier Workflow
-
 - Browse menu items by category.
 - Add products to the cart.
 - Update item quantities and review selected items.
 - Calculate the subtotal, 14% tax, and total amount.
 
 ### Application & UI
-
 - Client-side navigation with React Router.
 - Shared cart and UI state managed with Zustand.
 - Form handling and validation with Formik and Yup.
@@ -38,7 +37,7 @@ A web-based **Point of Sale (POS)** application for restaurants, providing separ
 ## 🧰 Tech Stack
 
 | Area | Technologies |
-|---|---|
+| --- | --- |
 | Frontend | React, JavaScript |
 | Build Tool | Vite |
 | Routing | React Router |
@@ -57,13 +56,15 @@ Before running the application, make sure the backend is available and that the 
 
 Do not add credentials or private tokens to source files.
 
+<!-- TODO: replace the paragraph above with the exact file / variable where the API base URL is set, e.g. VITE_API_URL in .env -->
+
 ## 🚀 Getting Started
 
 ### Prerequisites
 
 - Node.js
 - npm
-- Access to the POS backend API.
+- Access to the POS backend API
 
 ### Installation
 
@@ -88,19 +89,17 @@ npm run build
 npm run preview
 ```
 
+## 🔑 Demo Accounts
+
+<!-- TODO: add demo Admin / Cashier credentials here if the live demo allows it -->
+
 ## ☁️ Deployment
 
-Deployed on Vercel:
-
-[Live Demo](https://pos-system-orcin-five.vercel.app/)
+Deployed on Vercel: [pos-system-orcin-five.vercel.app](https://pos-system-orcin-five.vercel.app/)
 
 The frontend requires access to its backend API for authentication and POS data.
 
 ## 👩‍💻 Author
 
-**Nancy Rashid**
-
-[GitHub](https://github.com/NancyRashid123)
-
-[Repository](https://github.com/NancyRashid123/POS-system)
+**Nancy Rashid** — [GitHub](https://github.com/NancyRashid123)
 
