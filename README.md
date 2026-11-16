@@ -1,45 +1,69 @@
-# POS System
 
-A web-based Point of Sale (POS) application designed to support restaurant order processing through separate administrative and cashier workflows.
+# 🧾 Restaurant POS System
 
-## Live Demo
+A web-based **Point of Sale (POS)** application for restaurants, providing separate workflows for **Administrators** and **Cashiers**.
 
-[Open POS System](https://pos-system-orcin-five.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge)](https://pos-system-orcin-five.vercel.app/)
 
-## Features
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white)
+![DaisyUI](https://img.shields.io/badge/DaisyUI-5A0EF8)
+![Zustand](https://img.shields.io/badge/Zustand-433E38)
 
+## ✨ Features
+
+### Authentication & Role-Based Access
+
+- Login through the backend API.
 - Separate Admin and Cashier experiences.
-- User authentication through the backend API.
-- Role-aware access for administrative and cashier workflows.
-- Product categories and menu browsing.
-- Cashier order workflow with cart management.
-- Add items to the cart and adjust order quantities.
-- Calculate subtotal, tax, and total amount.
-- Connect the frontend to REST API endpoints using Axios.
-- Client-side state management with Zustand.
+- Role-aware access to application sections.
+
+### Cashier Workflow
+
+- Browse menu items by category.
+- Add products to the cart.
+- Update item quantities and review selected items.
+- Calculate the subtotal, 14% tax, and total amount.
+
+### Application & UI
+
+- Client-side navigation with React Router.
+- Shared cart and UI state managed with Zustand.
 - Form handling and validation with Formik and Yup.
-- Toast notifications for operation feedback.
-- Responsive interface built with Tailwind CSS and DaisyUI.
+- REST API integration using Axios.
+- Toast notifications for user feedback.
+- Responsive interface styled with Tailwind CSS and DaisyUI.
 
-## Tech Stack
+## 🧰 Tech Stack
 
-- **Frontend:** React, Vite, JavaScript
-- **Routing:** React Router
-- **Styling:** Tailwind CSS, DaisyUI
-- **State Management:** Zustand
-- **API Integration:** Axios, REST API
-- **Forms & Validation:** Formik, Yup
-- **Notifications:** react-hot-toast
-- **Icons:** react-icons
-- **Deployment:** Vercel
+| Area | Technologies |
+|---|---|
+| Frontend | React, JavaScript |
+| Build Tool | Vite |
+| Routing | React Router |
+| Styling | Tailwind CSS, DaisyUI |
+| State Management | Zustand |
+| API Communication | Axios, REST API |
+| Forms & Validation | Formik, Yup |
+| UI Feedback | react-hot-toast, react-icons |
+| Deployment | Vercel |
 
-## Getting Started
+## 🔌 Backend Configuration
+
+This frontend communicates with a restaurant POS backend API.
+
+Before running the application, make sure the backend is available and that the API base URL in the project configuration points to the correct backend.
+
+Do not add credentials or private tokens to source files.
+
+## 🚀 Getting Started
 
 ### Prerequisites
 
 - Node.js
 - npm
-- Access to the configured POS backend API
+- Access to the POS backend API.
 
 ### Installation
 
@@ -49,17 +73,13 @@ cd POS-system
 npm install
 ```
 
-### Configuration
-
-The application communicates with a backend API. Configure the API base URL in the appropriate project configuration before running locally. Do not commit private credentials or tokens.
-
 ### Run Locally
 
 ```bash
 npm run dev
 ```
 
-Vite will print the local development URL in the terminal.
+Vite prints the local development URL in the terminal.
 
 ### Production Build
 
@@ -68,11 +88,19 @@ npm run build
 npm run preview
 ```
 
-## Deployment
+## ☁️ Deployment
 
-The application is deployed on Vercel: [pos-system-orcin-five.vercel.app](https://pos-system-orcin-five.vercel.app/).
+Deployed on Vercel:
 
-## Author
+[Live Demo](https://pos-system-orcin-five.vercel.app/)
 
-**Nancy Rashid**  
-[GitHub Profile](https://github.com/NancyRashid123)
+The frontend requires access to its backend API for authentication and POS data.
+
+## 👩‍💻 Author
+
+**Nancy Rashid**
+
+[GitHub](https://github.com/NancyRashid123)
+
+[Repository](https://github.com/NancyRashid123/POS-system)
+
